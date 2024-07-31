@@ -3,6 +3,7 @@ body {
   background-color: #f8f8f8;
 }
 
+/* NAVBAR SECTION */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -37,10 +38,8 @@ body {
 .menu-item:nth-child(2) {
   border-right: none;
 }
-body {
-}
 
-/* body halaman */
+/* BODY HALAMAN SECTION */
 .home {
   text-align: center;
   padding: 50px;
@@ -56,15 +55,14 @@ h3 {
   color: #555;
 }
 
+/* CONTAINER SECTION */
 .container {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 .left {
-  background-color: #edf0f4;
   margin-left: 50px;
-  padding: 20px;
   width: 55%; /* Atur lebar elemen kiri */
 }
 .right {
@@ -75,42 +73,68 @@ h3 {
   width: 35%; /* Atur lebar elemen kanan */
 }
 
-/* Slideshow container */
+/* SLIDE SHOW */
 .slideshow-container {
   max-width: 100opx;
   position: relative;
   margin: auto;
+  padding: 20px;
+  background-color: #edf0f4;
 }
 
 .kgambar {
   width: 100%;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 30px 12px;
   position: absolute;
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+.profile {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #e0e0e0;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.details {
+  font-style: italic;
+  color: #777;
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+}
+
 .dot {
   height: 15px;
   width: 15px;
-  margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -121,7 +145,6 @@ h3 {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -136,14 +159,13 @@ h3 {
   }
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
   }
 }
 
-/* form contact us kanan */
+/* FORM CONTACT US */
 
 form {
   display: flex;
@@ -176,14 +198,14 @@ button:hover {
   background-color: #a9a9a9;
 }
 
+/* OUR PACKAGE SECTION */
 .our {
   padding: 50px;
   background-color: #edf0f4;
   text-align: center;
 }
 
-/* destinasi */
-
+/* KOTA SECTION */
 .kota {
   display: flex;
   flex-wrap: wrap;
@@ -207,7 +229,7 @@ button:hover {
   margin: 10px 0 0;
 }
 
-/* closing */
+/* CLOSING SECTION */
 .closing {
   padding: 30px;
   margin-top: 10px;
@@ -219,6 +241,7 @@ button.bot {
   padding: 20px 50px 20px 50px;
 }
 
+/* FOOTER SECTION */
 .footer {
   background-color: #f1f1f1;
   padding: 20px;

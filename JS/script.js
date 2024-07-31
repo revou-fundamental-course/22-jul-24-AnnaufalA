@@ -1,3 +1,4 @@
+// AUTO SLIDER
 let slideIndex = 0;
 showSlides();
 
@@ -15,10 +16,10 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // waktu pergantian gambar
 }
 
-// validasi from contact us
+// VALIDASI FORM CONTACT US
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Mencegah pengiriman formulir
 
